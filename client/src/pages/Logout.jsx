@@ -12,7 +12,7 @@ const Logout = () => {
     const { state, dispatch } = useContext(UserContext);
 
     /* Backend URL */
-    const URL = "https://nitj-jobify-backend.onrender.com";
+    const URL = "http://localhost:8000";
 
     /* Logout function */
     const userLogout = async () => {
